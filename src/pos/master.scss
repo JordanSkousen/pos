@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+$font: "Azeret Mono", monospace;  
+$deep-red: #1B0404;
+$red: #e23b3b;
+
+body {
+  font-family: $font;
+  color: white;
+  background: $deep-red;
+  margin: 0;
+}
+
+a {
+  color: $red;
+}
+
+@mixin mobile($max-width: 550px) {
+  @media (max-width: $max-width) {
+    @content;
+  }
+}

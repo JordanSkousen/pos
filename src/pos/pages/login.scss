@@ -1,0 +1,53 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - 16px);
+  height: 100vh;
+  padding: 8px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  font-size: 0.8rem;
+}
+
+.google-logo {
+  width: 24px;
+}
+
+.login-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background: lighten($color: $deep-red, $amount: 10%);
+  padding: 10px;
+  text-align: center;
+  h2 {
+    font-size: 1.2rem;
+  }
+  .login-bottom-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.story {
+  padding: 8px;
+  padding-bottom: 28px;
+  .story-alt-bg {
+    background: lighten($color: $deep-red, $amount: 10%);
+    margin: 0px -8px;
+    padding: 8px;
+  }
+  b {
+    color: #e66326;
+    text-decoration: underline;
+  }
+}

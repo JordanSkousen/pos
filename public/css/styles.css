@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
+body {
+  font-family: "Azeret Mono", monospace;
+  color: white;
+  background: #1B0404;
+  margin: 0;
+}
+
+a {
+  color: #e23b3b;
+}
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - 16px);
+  height: 100vh;
+  padding: 8px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.login-logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.google-logo {
+  width: 24px;
+}
+
+.login-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background: #470b0b;
+  padding: 10px;
+  text-align: center;
+}
+.login-bottom h2 {
+  font-size: 1.2rem;
+}
+.login-bottom .login-bottom-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story {
+  padding: 8px;
+  padding-bottom: 28px;
+}
+.story .story-alt-bg {
+  background: #470b0b;
+  margin: 0px -8px;
+  padding: 8px;
+}
+.story b {
+  color: #e66326;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "pos",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.22.2"
+  },
+  "scripts": {
+    "start": "npx shadow-cljs clj-run pos.dev.shadow/watch",
+    "clean-debug": "rm -rf ./public/js",
+    "build": "yarn clear-debug && shadow-cljs release browser"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/joy": "^5.0.0-beta.52",
+    "firebase": "^12.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.59.3"
+  }
+}
